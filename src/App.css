@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: #C1EEFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Title {
+  color: #070707;
+  letter-spacing: 0.5rem;
+}
+
+.Time {
+  color: #40434E;
+}
+
+.SwitchBtn {
+  padding: 0.5rem;
+  width: 20rem;
+
+  background-color: #40434E;
+  color: #FFF;
+  font-family: inherit;
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.SwitchBtn:hover {
+  background-color: #161032;
+}
